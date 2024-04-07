@@ -22,7 +22,7 @@ const Courses = [
 //************************************************Get Method******************************************
 
 app.get("/",(req,res)=>{
-    res.send("Hello from server... This is Adnane!,1st Commit")
+    res.send("Hello from server... This is Adnane!,1st Commit,2nd commit")
 
 })
 
