@@ -22,8 +22,7 @@ const Courses = [
 //************************************************Get Method******************************************
 
 app.get("/",(req,res)=>{
-    res.send("Hello from server... This is Adnane!")
-    res.send("1st Commit")
+    res.send("Hello from server... This is Adnane!,1st Commit")
 
 })
 
@@ -138,4 +137,4 @@ app.delete("/api/Courses/:id",(req,res)=>{
     res.send(Course);
     
 })
-app.listen(5000);
+app.listen(2000);
