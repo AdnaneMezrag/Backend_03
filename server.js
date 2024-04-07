@@ -22,7 +22,9 @@ const Courses = [
 //************************************************Get Method******************************************
 
 app.get("/",(req,res)=>{
-    res.send("Hello from server... This is Adnane")
+    res.send("Hello from server... This is Adnane!")
+    res.send("1st Commit")
+
 })
 
 //Show all the available courses from an array
